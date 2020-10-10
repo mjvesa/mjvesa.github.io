@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Fitnessyritysnimigeneraattori</title>
+  </head>
+  <body>
+    <p>Kirjoita nimesi tähän, niin kerron tulevan fitnessyrityksesi nimen</p>
+    <input id="nimi"></input>
+    <button  id="nappi">Nyt sitä nimeä</button>
+    <script>
+      const el = document.getElementById('nappi');
+      el.onclick = (event) => {
+        const nimi = document.getElementById('nimi').value;
+        window.alert('Yrityksesi nimi on: ' + nimi + " Fit");
+      }
+    </script>
+  </body>
+</html>
